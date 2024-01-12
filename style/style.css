@@ -76,7 +76,6 @@ font-weight: bold;
     color: orangered;
     font-size: 20px;
     background-color: rgb(84, 84, 207);
-    padding: 5px 20px 5px 20px;
     border-radius: 10px;
     border-style: solid;
 }
@@ -84,11 +83,13 @@ font-weight: bold;
 @media screen and (max-width:576px) {
 .container{
 flex-direction: column;
+width: 100%;
 
 }
 
 .snap-section p{
     padding: 20px;
+    width: 100%;
 }
 .make-container{
 flex-direction: column;
@@ -98,7 +99,7 @@ flex-direction: column;
 margin-top: 20px;
 }
 .login-section p{
-   margin-left: 50px;
+  width: 100%;
     }
 .snap-section span{
     color: rgb(0, 110, 255);
