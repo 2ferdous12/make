@@ -1,0 +1,108 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.snap-section{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.login-section{
+    justify-content: space-around;
+    display: flex;
+    width: 20%;
+ }
+
+.make-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1560px;
+    width: 100%;
+margin: 10px auto;
+align-items: center;
+}
+.text-section{
+max-width: 500px;
+width: 100%;
+}
+
+.text-section h3{
+    max-width: 250px;
+    width: 100%;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.text-section p{
+    color: gray;
+    line-height: 25px;
+    font-size: 18px;
+}
+    
+.text-section button{
+    font-size: 18px;
+    color: white;
+    background-color: rgb(75, 75, 207);
+    padding: 10px 20px 10px 20px;
+    border-style: solid;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.text-section-1{
+max-width: 500px;
+width: 100%;
+
+}
+
+.text-section-1 img{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.snap-section span{
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
+}
+.login-section p{
+font-size: 20px;
+font-weight: bold;
+}
+.login-section button{
+    color: orangered;
+    font-size: 20px;
+    background-color: rgb(84, 84, 207);
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+@media screen and (max-width:576px) {
+.container{
+flex-direction: column;
+
+}
+
+.snap-section p{
+    padding: 20px;
+}
+.make-container{
+flex-direction: column;
+}
+
+.text-section-1 img{
+margin-top: 20px;
+}
+.login-section p{
+   margin-left: 50px;
+    }
+.snap-section span{
+    color: rgb(0, 110, 255);
+    font-weight: bold;
+    font-size: 25px;
+}
+}
